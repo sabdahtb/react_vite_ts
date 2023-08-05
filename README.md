@@ -1,12 +1,48 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# React Vite TS
 
-# React Tailwindcss Boilerplate build with Vite
+React + Vite + TypeScript Boilerplate.
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+### How to run
 
-## What is inside?
+```bash
+npm install
+npm run dev
+```
 
-This project uses many tools like:
+Serve with hot reload at <http://localhost:3000>.
+
+### Run linter
+
+```bash
+npm run lint
+```
+
+### Run typecheck
+
+```bash
+npm run typecheck
+```
+
+### How to run production build
+
+```bash
+npm run build
+npm run serve
+```
+
+### Run unit test
+
+```bash
+npm run test
+```
+
+Run vitest with ui in browser.
+
+```bash
+npm run test:ui
+```
+
+## Documentation of used tools
 
 - [Vite](https://vitejs.dev)
 - [ReactJS](https://reactjs.org)
@@ -16,65 +52,4 @@ This project uses many tools like:
 - [Tailwindcss](https://tailwindcss.com)
 - [Eslint](https://eslint.org)
 - [Prettier](https://prettier.io)
-
-## Getting Started
-
-### Install
-
-Create the project.
-
-```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
-
-Access the project directory.
-
-```bash
-cd my-app
-```
-
-Install dependencies.
-
-```bash
-pnpm install
-```
-
-Serve with hot reload at <http://localhost:5173>.
-
-```bash
-pnpm run dev
-```
-
-### Lint
-
-```bash
-pnpm run lint
-```
-
-### Typecheck
-
-```bash
-pnpm run typecheck
-```
-
-### Build
-
-```bash
-pnpm run build
-```
-
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.
+- [Redux](https://redux-toolkit.js.org/)
